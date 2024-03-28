@@ -1,0 +1,63 @@
+/* body{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+} */
+header {
+    background-image: url(../img/bg-hero.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+}
+header h1{
+    font-size: 60px;
+}
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#proxima-charla{
+    background: #a4452c;
+    padding: 100px;
+    color:white;
+}
+#proxima-charla .wrapper{
+    width: 800px;
+    margin: auto;
+}
+.wrapper img{
+    width: 25%;
+}
+.wrapper .texto{
+    width: 70%;
+    margin-left: 4%;
+}
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rojo i{
+    color: red;
+}
+
+#eventos-anteriores{
+    text-align: center;
+}
